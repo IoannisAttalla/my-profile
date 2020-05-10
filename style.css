@@ -1,0 +1,154 @@
+body {
+	background-color: rgb(0, 80, 130, 0.09);
+	background-image: url(my-profile/images/background.jpg); 
+    color: #005082;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    line-height: 1.3;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+img {
+	size: 2;
+}
+
+h1, h2, {
+	font-family: 'Roboto', sans-serif;
+	color: #000839;
+}
+
+h1 {
+	font-weight: 900;
+	letter-spacing: 3px;
+	font-size: 35px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 21px;
+
+}
+
+a {
+	text-decoration: all;
+	color: #00a8cc;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #005082
+}
+
+p {
+	text-justify; justify;
+	font-size: 18px;
+}
+
+div {
+	background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5%;
+    padding: 30px;
+    margin: 40px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 7px solid rgba(0, 80, 130, 0.15);
+}
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+	padding: 40px;
+}
+
+@media (max-width: 850px){
+	.container {
+		width:800;
+	}
+}
+
+@media (max-width: 750px) {
+
+.container { 
+	width: 600px;
+}
+}
+
+@media (max-width: 600px) {
+
+.container { 
+	width: 540px;
+}
+}
+
+@media (max-width: 540px) {
+
+.container { 
+	width: 500px;
+}
+}
+
+
+#main-thick {
+	border: 1px;
+	border-color: rgb(0, 80, 130, 0.1);
+	box-shadow: 0px 10px 30px rgba (0, 80, 130, 0.1);
+	border-style: solid;
+	border-bottom: 2px;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba (0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+}
+
+.button-blue {
+	background-color: #00a8cc;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.button-blue:hover {
+	background-color: #005082;
+	color: white;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+
+.list-horizontal i:hover {
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+}
+
+#introduction p {
+	margin-bottom: 40px:;
+}
+
+
+
+
+
+
